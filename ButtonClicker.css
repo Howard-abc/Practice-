@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    background-color: #a19f9f;
+}
+
+.nav {
+    width: 1000px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+.search{
+    width: 200px;
+    height: 20px;
+    border: #000000;
+    border-style:solid;
+    text-align: left;
+    font-size: 15px;
+
+}
+.container {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #e6edee;
+}
+
+.ninja1,.ninja2{
+    width: 500px;
+    height: 350px;
+    background-color:rgb(242, 242, 248) ;
+    position: absolute;
+    border: #000000;
+    border-style: solid;
+}
+
+.ninja1{
+    margin-top: 40px;
+}
+
+.ninja2{
+    top: 520px;
+    
+}
+
+.rightbar{
+    right: 300px;
+    position: absolute;
+    background-color:rgb(242, 242, 248) ;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border: #000000;
+    border-style: solid;
+}
+
+.black{
+    font-weight: bold;
+    
+}
+
+.seb{
+    height: 50px;
+    width: 200px;
+    background-color: #397a21;
+    color: #050505;
+    box-shadow: #000000;
+    font-size: 16px;
+}
+
+.nin1{
+    list-style-type: none;
+    font-size: 30px;
+    text-align: left;
+}
+
+.nbtn{
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    background-color: #c7d52a;
+    color: #050505;
+    box-shadow: #000000;
+    font-size: 16px;
+}
+
+.edit{
+    margin-top: 30px;
+}
+
+.box2{
+    margin-left: 30px;
+    font-size: 30px;
+   
+}
+
+.nbtn2{
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    background-color: #c7d52a;
+    color: #050505;
+    box-shadow: #000000;
+    font-size: 16px;
+}
+
+.nin2{
+    list-style-type: none;
+    font-size: 30px;
+    text-align: left;
+}
+
+.box3{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
